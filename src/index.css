@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* keep your print utility override */
+@media print {
+  .print\:shadow-none { box-shadow: none !important; }
+}
